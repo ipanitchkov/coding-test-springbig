@@ -1,0 +1,27 @@
+{
+  "name": "coding-test-springbig",
+  "version": "1.0.0",
+  "description": "**Description:** - Create a node and express web server that handles GET requests for the route:   - /anagrams - This route will accept the query url:   - '?words=word1,word2,word3,…’ - The endpoint will return an array of arrays of anagrams, as explained below.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "prettier": "npx prettier --write .",
+    "coverage": "jest --collect-coverage"
+  },
+  "author": "Ivaylo Panitchkov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  }
+}
