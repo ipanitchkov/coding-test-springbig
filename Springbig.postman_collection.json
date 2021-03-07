@@ -1,0 +1,51 @@
+{
+  "info": {
+    "_postman_id": "927f88c3-7333-4332-a6ba-c272ede5da0f",
+    "name": "Springbig",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Find anagrams v1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/v1/anagrams?words=ate,bar,loop,Pool,TEA,pet,BAR",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["v1", "anagrams"],
+          "query": [
+            {
+              "key": "words",
+              "value": "ate,bar,loop,Pool,TEA,pet,BAR"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Find anagrams v2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/v2/anagrams?words=pot,Top,opt,owl,Low,owL",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["v2", "anagrams"],
+          "query": [
+            {
+              "key": "words",
+              "value": "pot,Top,opt,owl,Low,owL"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
